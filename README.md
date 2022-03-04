@@ -151,12 +151,79 @@ print(type(tupla))
 print(tupla)
 ```
 ## Dictionary
-
+Son una serie de datos que podemos almacenar definiendo una llave (key) y un valor (value). Son creados mediante un par de corchetes y separados por una coma. Una ventaja de esto es que podemos acceder a todos los valores almacenados usando simplemente las claves.
+```Python
+d5 = {
+  "Nombre": "Samantha",
+  "Edad": 18,
+  "Documento": 4839564
+}
+print(d5)
+```
 
 # Tomando decisiones
 ## Sentencia if
+
+```Python
+# Escriba un programa que solicite un valor entero al usuario
+# Determine si es par o impar
+
+num = int(input("Ingrese un número:"))
+
+if (num%2==0):
+    print("El número es par",)
+    print(num,"Es par")
+else:
+    print("El número es impar")  
+```   
 ## Ciclo For
+
+```Python
+# Calcular la suma y la media aritmetica de Nnumeros reales. 
+# solicitar el valor de n al usuario y cada uno de los N números reales.
+
+n = int(input("Ingrese los números que desee: "))
+suma= 0
+for i in range(n):
+    nota =int(input('Ingrese el número' + str (i+1) +  ':'))
+    suma += nota
+    
+promedio = suma/n 
+print("promedio:", promedio)
+```
 ## Ciclo While
+
+```Python
+#10-20
+
+num=11
+
+while num<10 or num >20 or num%2!=0:
+    num=int(input("ingrese numero:"))
+
+print("se fue")
+```
 ## Break
+
+```Python
+j=0
+for i in range (10):
+    j+=2
+    print ("i;",i,"j:",j)
+    if j==10:
+        break
+```
 ## Continue
+
+
+```Python
+contador=0
+for i in range (10):
+    for j in range (10):
+        contador +=1
+        print ("i:",i,"j:",j)
+        if contador >50:
+            continue
+print ("contador:",contador)
+```
 
