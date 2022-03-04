@@ -4,10 +4,10 @@ Es un lenguaje de programación de alto nivel apto para desarrollar todo tipo de
 Python nos brinda todas las herramientas necesarias para desarrollar futuros proyectos que nos planteemos todo esto gratuitamente, por lo tanto, es una opción multiplataforma, bastante interesante para los desarrolladores que no quieren preocuparse por pagar altos costos de desarrollo.
 # Qué es una variable?
 Una variable es un nombre que se refiere a un valor. La sentencia de asignación crea nuevas variables y les da valores. Cuando escribimos código, las variables se utilizan para:
-•	Guardar datos y estados.
-•	Asignar valores de una variable a otra.
-•	Representar valores dentro de una expresión matemática.
-•	Mostrar valores por pantalla.
+* Guardar datos y estados.
+* Asignar valores de una variable a otra.
+* Representar valores dentro de una expresión matemática.
+* Mostrar valores por pantalla.
 ## Nombrando una variable
 ``` Python
 variable =
@@ -20,13 +20,13 @@ Variable = ¡Hola mundo!
 # aquí el “=” asigna un valor numérico (45) en la primera variable y en la segunda un mensaje de bienvenida (¡Hola mundo!)
 ```
 ## Operadores básicos
-Suma: +
-Resta: -
-Multiplicación: *
-División: /
-Potenciación: **
-División entera: //
-Modulo: %
+* Suma: +
+* Resta: -
+* Multiplicación: *
+* División: /
+* Potenciación: **
+* División entera: //
+* Modulo: %
 ### Suma
 ```Python
 # Colocamos dos variables con sus respectivos valores
@@ -108,6 +108,9 @@ print(result)
 # Tipos de datos en Python
 ## Integer
 Hace referencia a los números enteros ya sean positivos o negativos, no se admiten los decimales. En Python mayormente lo usamos como int, este nos permite almacenar un valor numérico con las características antes dadas, y no debemos preocuparnos del tamaño del número almacenado.
+```Python
 X = 65
 Y = -34
 Z = 24675322
+```
+
