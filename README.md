@@ -135,12 +135,20 @@ Este dato nos da la posibilidad de cambiar un tipo de dato a otro. Tales como in
    int a str: str(95)
   ```
 ## List
-Aquí podemos almacenar cualquier tipo de información, en ellas puedes guardar prácticamente lo que quieras, lo hacemos mediante los corchetes ([]) y separados por una coma (,).
+Aquí podemos almacenar cualquier tipo de información, en ellas puedes guardar prácticamente lo que quieras, lo hacemos mediante los corchetes [] y separados por una coma (,).
 ```Python
 list = [ 15,10,5,1,["quince","diez","cinco","uno"]]
 print(list)
 ```
 ## Tuple
+Es una estructura de datos donde podemos guardar información heterogénea y homogénea, son inmutables, es decir, que después de ser creado no puede cambiarse, los podemos presentar mediante paréntesis () o separados por una coma.
+```Python
+tupla = 10, 50, 20
+print(tupla)
+tupla = (10, 50, 20)
+print(type(tupla)) 
+print(tupla)
+```
 ## Dictionary
 
 
