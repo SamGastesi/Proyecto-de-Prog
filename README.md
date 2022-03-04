@@ -1,4 +1,4 @@
-"# Proyecto-de-Prog" 
+# PORTAFOLIO DE FUNDAMENTOS-DE-PROGRAMACION
 # Qué es Python?
 Es un lenguaje de programación de alto nivel apto para desarrollar todo tipo de apps, un ejemplo de estas seria para desarrollo web y aplicaciones informáticas, es sencillo de aprender ya que es parecido al lenguaje humano; utiliza un lenguaje interpretado que se ejecuta directamente por el ordenador y no necesita traducirse a lenguaje de máquina.
 Python nos brinda todas las herramientas necesarias para desarrollar futuros proyectos que nos planteemos todo esto gratuitamente, por lo tanto, es una opción multiplataforma, bastante interesante para los desarrolladores que no quieren preocuparse por pagar altos costos de desarrollo.
