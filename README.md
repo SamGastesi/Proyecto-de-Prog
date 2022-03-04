@@ -15,8 +15,8 @@ variable =
 ```
 ## Asignando valores a una variable 
 ``` Python
-Variable = 45
-Variable = ¡Hola mundo!
+variable = 45
+variable = ¡Hola mundo!
 # aquí el “=” asigna un valor numérico (45) en la primera variable y en la segunda un mensaje de bienvenida (¡Hola mundo!)
 ```
 ## Operadores básicos
