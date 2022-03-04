@@ -14,11 +14,11 @@ variable =
 # aquí en “variable” es donde se guardará la información y en “=” se le asigna un dato o valor a la variable.
 ```
 ## Asignando valores a una variable 
+``` Python
 Variable = 45
 Variable = ¡Hola mundo!
-
 # aquí el “=” asigna un valor numérico (45) en la primera variable y en la segunda un mensaje de bienvenida (¡Hola mundo!)
-
+```
 ## Operadores básicos
 Suma: +
 Resta: -
@@ -28,11 +28,10 @@ Potenciación: **
 División entera: //
 Modulo: %
 ### Suma
-# Colocamos dos variables con sus respectivos valores
 ```Python
+# Colocamos dos variables con sus respectivos valores
 x = 8
 y = 4
-```
 # debemos crear una variable en donde se guarde el resultado de la operación, en este caso la suma
 result = 0
 # escribimos las variables situando en medio de ellos el signo ‘+’
@@ -40,10 +39,9 @@ result = (x + y)
 result = 12
 # y por último escribimos la función print para que muestre el resultado exacto
 print(result)
-
-
-
+```
 ### Resta
+```Python
 # Colocamos dos variables con sus respectivos valores
 x = 50
 y = 15
@@ -54,7 +52,9 @@ result = (x - y)
 result = 35
 # y por último escribimos la función print para que muestre el resultado exacto
 print(result)
+```
 ### Multiplicación
+```Python
 # Colocamos dos variables con sus respectivos valores
 x = 10
 y = 5
@@ -65,7 +65,9 @@ result = (x * y)
 result = 50
 # y por último escribimos la función print para que muestre el resultado exacto
 print(result)
+```
 ### División
+```Python
 # Colocamos dos variables con sus respectivos valores
 x = 45
 y = 3
@@ -76,7 +78,9 @@ result = (x / y)
 result = 15
 # y por último escribimos la función print para que muestre el resultado exacto
 print(result)
+```
 ### Módulo
+```Python
 # Colocamos dos variables con sus respectivos valores
 x = 20
 y = 8
@@ -87,7 +91,9 @@ result = (x % y)
 result = 4
 # y por último escribimos la función print para que muestre el resultado exacto
 print(result)
+```
 ### Potencia
+```Python
 # Colocamos dos variables con sus respectivos valores
 x = 2
 y = 3
@@ -98,7 +104,7 @@ result = (x ** y)
 result = 8
 # y por último escribimos la función print para que muestre el resultado exacto
 print(result)
-
+```
 # Tipos de datos en Python
 ## Integer
 Hace referencia a los números enteros ya sean positivos o negativos, no se admiten los decimales. En Python mayormente lo usamos como int, este nos permite almacenar un valor numérico con las características antes dadas, y no debemos preocuparnos del tamaño del número almacenado.
