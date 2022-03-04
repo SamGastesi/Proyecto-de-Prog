@@ -145,6 +145,7 @@ Es una estructura de datos donde podemos guardar información heterogénea y hom
 ```Python
 tupla = 10, 50, 20
 print(tupla)
+
 tupla = (10, 50, 20)
 print(type(tupla)) 
 print(tupla)
