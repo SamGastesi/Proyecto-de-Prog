@@ -121,7 +121,7 @@ print(type(num))
 #nos muestra el tipo de dato que representa
 ```
 ## String
-Lo utilizamos para almacenar secuencias de carácteres, lo hacemos mediante las dobles comillas '""' para crear un texto de esta característica.
+Lo utilizamos para almacenar secuencias de carácteres, lo hacemos mediante las dobles comillas "" para crear un texto de esta característica.
 ```Python
 mes = "noviembre"
 print(type(mes)) 
