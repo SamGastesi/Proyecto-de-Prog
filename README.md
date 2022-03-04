@@ -10,7 +10,7 @@ Una variable es un nombre que se refiere a un valor. La sentencia de asignación
 •	Mostrar valores por pantalla.
 ## Nombrando una variable
 variable =
-## aquí en “variable” es donde se guardará la información y en “=” se le asigna un dato o valor a la variable.
+### aquí en “variable” es donde se guardará la información y en “=” se le asigna un dato o valor a la variable.
 ## Asignando valores a una variable
 ```Python 
 Variable = 45
