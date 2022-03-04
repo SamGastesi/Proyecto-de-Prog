@@ -113,4 +113,30 @@ X = 65
 Y = -34
 Z = 24675322
 ```
+## Float
+El tipo numérico ‘float’ nos permite representar un numero decimal ya sea este positivo o negativo.
+```Python
+num = 73.895
+print(type(num)) 
+#nos muestra el tipo de dato que representa
+```
+## String
+Lo utilizamos para almacenar secuencias de carácteres, lo hacemos mediante las dobles comillas "" para crear un texto de esta característica.
+```Python
+mes = "noviembre"
+print(type(mes)) 
+#nos muestra el tipo de dato que representa
+```
+## Casting en Python
+## List
+## Tuple
+## Dictionary
+
+
+# Tomando decisiones
+## Sentencia if
+## Ciclo For
+## Ciclo While
+## Break
+## Continue
 
