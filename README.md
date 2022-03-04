@@ -128,6 +128,12 @@ print(type(mes))
 #nos muestra el tipo de dato que representa
 ```
 ## Casting en Python
+Este dato nos da la posibilidad de cambiar un tipo de dato a otro. Tales como 'int', 'string' o 'float'.
+```Python
+   float a int: int (7.4)
+   str a int: int ("938")
+   int a str: str(95)
+  ```
 ## List
 ## Tuple
 ## Dictionary
