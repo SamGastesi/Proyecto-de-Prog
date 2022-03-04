@@ -179,10 +179,10 @@ else:
 ## Ciclo For
 
 ```Python
-# Calcular la suma y la media aritmetica de Nnumeros reales. 
-# solicitar el valor de n al usuario y cada uno de los N números reales.
+# Calcula la suma y la media aritmética de N números reales. 
+# Solicitar el valor de n al usuario y cada uno de los N números reales.
 
-n = int(input("Ingrese los números que desee: "))
+n = int(input("Ingrese números a su elección: "))
 suma= 0
 for i in range(n):
     nota =int(input('Ingrese el número' + str (i+1) +  ':'))
@@ -194,36 +194,36 @@ print("promedio:", promedio)
 ## Ciclo While
 
 ```Python
-#10-20
+# 10 - 20
 
-num=11
+num = 11
 
-while num<10 or num >20 or num%2!=0:
-    num=int(input("ingrese numero:"))
+while num < 10 or num > 20 or num%2!= 0:
+    num = int(input("Ingrese número:"))
 
-print("se fue")
+print("Se fue")
 ```
 ## Break
 
 ```Python
-j=0
+j = 0
 for i in range (10):
-    j+=2
-    print ("i;",i,"j:",j)
-    if j==10:
+    j += 2
+    print ("i;", i, "j:", j)
+    if j == 10:
         break
 ```
 ## Continue
 
 
 ```Python
-contador=0
+contador = 0
 for i in range (10):
     for j in range (10):
-        contador +=1
-        print ("i:",i,"j:",j)
-        if contador >50:
+        contador += 1
+        print ("i:", i, "j:", j)
+        if contador > 50:
             continue
-print ("contador:",contador)
+print ("contador:", contador)
 ```
 
