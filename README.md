@@ -163,7 +163,7 @@ print(d5)
 
 # Tomando decisiones
 ## Sentencia if
-
+Esta palabra utilizada en Python significa “si” y la utilizamos cuando una tenemos una expresión que necesitamos evaluar y ver si el resultado es verdadero, si es así se ejecutará por lo contrario seguirá con el próximo bloque para determinar su valor. 
 ```Python
 # Escriba un programa que solicite un valor entero al usuario
 # Determine si es par o impar
@@ -177,7 +177,7 @@ else:
     print("El número es impar")  
 ```   
 ## Ciclo For
-
+Es un bucle que repite el bloque de instrucciones un número prederminado de veces. El bloque de instrucciones que se repite se suele llamar cuerpo del bucle y cada repetición se suele llamar iteración.El cuerpo del bucle se ejecuta tantas veces como elementos tenga el elemento recorrible.
 ```Python
 # Calcula la suma y la media aritmética de N números reales. 
 # Solicitar el valor de n al usuario y cada uno de los N números reales.
@@ -192,7 +192,7 @@ promedio = suma/n
 print("promedio:", promedio)
 ```
 ## Ciclo While
-
+El ciclo while evalúa una condición y luego ejecuta un bloque de código si la condición es verdadera. El bloque de código se ejecuta consecutivamente hasta que la condición llega a ser falsa.
 ```Python
 # 10 - 20
 
@@ -204,7 +204,7 @@ while num < 10 or num > 20 or num%2!= 0:
 print("Se fue")
 ```
 ## Break
-
+La instrucción break le proporciona la oportunidad de cerrar un bucle cuando se activa una condición externa. Debe poner la instrucción break dentro del bloque de código bajo la instrucción de su bucle, generalmente después de una instrucción if condicional.
 ```Python
 j = 0
 for i in range (10):
@@ -214,8 +214,7 @@ for i in range (10):
         break
 ```
 ## Continue
-
-
+Sirve para detener la iteración actual y volver al principio del bucle para realizar otra iteración, si corresponde.
 ```Python
 contador = 0
 for i in range (10):
@@ -226,4 +225,3 @@ for i in range (10):
             continue
 print ("contador:", contador)
 ```
-
