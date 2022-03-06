@@ -1,4 +1,4 @@
-# Ejercicio de Interger
+# Ejercicio de int
 
 letra = input("Letra: ")
 if len(letra)!= 1:
