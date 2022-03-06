@@ -1,4 +1,4 @@
-# Ejercicio de dictionary
+# Ejercicio 1 de dictionary
 
 thisdict = {
   "brand": "Cherry",
